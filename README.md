@@ -63,7 +63,8 @@ Movie Mood is a modern, user-friendly movie recommendation app built with Swift 
 3. **Open `Movie Mood.xcodeproj` in Xcode**
 4. Make sure your backend is running and accessible (update the IP in `MovieListViewModel.swift` if needed)
 5. **Run the app on a real iOS device** (recommended; for simulator, see notes below)
-6. Enjoy discovering movies!
+6. Update the `baseURL` in `MovieListViewModel.swift` to match your Mac's IP address
+7. Enjoy discovering movies!
 
 ### Prerequisites
 
@@ -76,7 +77,6 @@ Movie Mood is a modern, user-friendly movie recommendation app built with Swift 
 
 - **Simulators** may have network issues; real device is recommended
 - If running on a real device, ensure your backend is accessible via your Mac's local IP
-- Update the `baseURL` in `MovieListViewModel.swift` to match your Mac's IP address
 - **Fallback**: If the backend is unavailable, the app will automatically load dummy data
 
 ## 🔧 Recent Updates
