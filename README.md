@@ -2,7 +2,8 @@
 
 Movie Mood is a modern, user-friendly movie recommendation app built with Swift and SwiftUI. It allows users to discover movies based on their preferences, filter by various criteria, and explore detailed information about each film, including cast and posters fetched from TMDb.
 
-![App Preview](app_video.gif)
+![App Preview](app_video.gif){ width=400px }
+<img src="assets/demo.gif" width="400"/>
 
 ## 🎬 What Does Movie Mood Do?
 
