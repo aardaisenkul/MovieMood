@@ -15,7 +15,7 @@ class MovieListViewModel: ObservableObject {
     @Published var availableLanguages: [String] = []
     @Published var availableCompanies: [String] = []
     
-    let baseURL = "http://192.168.1.11:8000" // MAC IP ADDRESS
+    let baseURL = "http://localhost:8000" // MAC IP ADDRESS
     
     // Request deduplication
     private var isRequestInProgress = false
